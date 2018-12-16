@@ -1,0 +1,212 @@
+@import '_variables.scss';
+h1 > a {
+    font-family: 'santorini', sans-serif;
+}
+button {
+    background: none;
+    border: 0
+}
+a:hover {
+    cursor: pointer;
+}
+section.featured {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    // Start Left
+    .left {
+        img {
+            width: 100%
+        }
+        h1 {
+            a {
+                font-size: 27px;
+                line-height: 28px;
+                color: $colorH1
+            }
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        h2.desc {
+            font-style: normal;
+            letter-spacing: 0;
+            font-size: 16px;
+            line-height: 20px;
+            color:rgba(0,0,0,.54)
+        }
+        h6.author {
+            a {
+                color: $colorAuthor;
+                font-style: normal;
+            }
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        h6.date {
+            font-size: 13px;
+            color: rgba(0,0,0,.5);
+        }
+    }
+    // Start Center
+    .center {
+        .col-img {
+            padding: 0;
+            img {
+                width: 100%
+            }
+        }
+        h1 {
+            a {
+                font-size: 27px;
+                line-height: 28px;
+                color: $colorH1;
+            }
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        h2.desc {
+            font-style: normal;
+            letter-spacing: 0;
+            font-size: 16px;
+            line-height: 20px;
+            color:rgba(0,0,0,.54)
+        }
+        h6.author {
+            a {
+                color: $colorAuthor;
+                font-style: normal;
+            }
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        h6.date {
+            font-size: 13px;
+            color: rgba(0,0,0,.5);
+        }
+    }
+    // Start right
+    .right {
+        img {
+            width: 100%
+        }
+        h1 {
+            a {
+                font-size: 27px;
+                line-height: 28px;
+                color: $colorH1
+            }
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        h2.desc {
+            font-style: normal;
+            letter-spacing: 0;
+            font-size: 16px;
+            line-height: 20px;
+            color:rgba(0,0,0,.54)
+        }
+        h6.author {
+            a {
+                color: $colorAuthor;
+                font-style: normal;
+            }
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        h6.date {
+            font-size: 13px;
+            color: rgba(0,0,0,.5);
+        }
+    }
+    > a {
+        color:#03a87c;
+        text-transform: uppercase;
+        background: none;
+        border: 0;
+        text-align: right;
+        display: block;
+        width: 100%;
+    }
+}
+section.welcome {
+    background-color: #caf2fa;
+    padding: 30px 10px;
+    margin-bottom: 50px;
+    .text {
+        width: 50%;
+        h1 {
+            font-style: normal!important;
+            font-weight: 500!important;
+            font-size: 42px!important;
+            line-height: 48px!important;
+        }
+        h5 {
+            padding: 10px 0
+        }
+        > div {
+            button.get--started {
+                background-color: #1C9963;
+                color: #FFF;
+            }
+            button.learn--more {
+                background: none;
+                border: 1px solid #292929;
+            }
+        }
+    }
+}
+@media (min-width: 320px) {
+    section.featured {
+        .center {
+            .col-img img {
+                height: 150px;
+            }
+        }
+    }
+    section.welcome {
+        .text {
+            width: 100%;
+            h1 {
+                text-align: center;
+                font-size: 33px !important;
+            }
+            > div {
+                display: block;
+                text-align: center
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
