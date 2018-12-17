@@ -9,8 +9,8 @@ import {
    Label,
    Row,
 } from 'reactstrap';
-import './Home.scss'
-import './featured-members.scss'
+import './Home.scss';
+import './featured-members.scss';
 class Home extends React.Component {
    render() {
        return (

@@ -35,12 +35,14 @@ class Header extends Component {
     return (
       <React.Fragment>
         <Navbar  light expand="md">
-          <NavbarBrand href="/">readinGarden</NavbarBrand>
+          <NavbarBrand href="/"><Link to="/">readinGarden</Link></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/blog/">Home</NavLink>
+                <NavLink href="/blog/">
+                  <Link to="/blog">Blog</Link>
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/components/">Blog</NavLink>
