@@ -52,7 +52,7 @@ class App extends Component {
         <Header />
         <div className="app-body">
           <main className="main">
-            <Container fluid>
+
               <Suspense fallback={this.loading()}>
                 <Switch>
                   {routes.map((route, idx) => {
@@ -73,7 +73,7 @@ class App extends Component {
                   <Redirect from="/" to="/dashboard" />
                 </Switch>
               </Suspense>
-            </Container>
+
           </main>
 
         </div>

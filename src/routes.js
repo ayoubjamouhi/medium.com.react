@@ -53,8 +53,8 @@ const routes = [
   // Home
   { path: '/home', name: 'Home', component: Home },
   // Post
-  { path: '/post', name: 'Post', component: Post },
-  // Post
+  { path: '/post/:id', name: 'Post', component: Post },
+  // Blog
   { path: '/blog', name: 'Blog', component: Blog },
   { path: '/base', exact: true, name: 'Base', component: Cards },
   { path: '/base/cards', name: 'Cards', component: Cards },
