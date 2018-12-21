@@ -32,7 +32,7 @@ class Post extends React.Component {
                         <div className="user">
                             <Row>
                                 <Col xs="12" sm="1" md="1" lg="1" xl="1" className="image">
-                                    <img src="http://via.placeholder.com/50x50" alt="images" class="img-circle"/>
+                                    <img src="http://via.placeholder.com/50x50" alt="images" className="img-circle"/>
                                 </Col>
                                 <Col xs="12" sm="4" md="4" lg="4" xl="4" className="info">
                                     <div className="name--follow">

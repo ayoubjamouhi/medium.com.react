@@ -1,12 +1,8 @@
 import React from 'react';
 import {
-   CardBody,
-   CardFooter,
    Button,
    Col,
-   FormGroup,
-   Input,
-   Label,
+   Container,
    Row,
 } from 'reactstrap';
 import './Home.scss';
@@ -14,7 +10,7 @@ import './featured-members.scss';
 class Home extends React.Component {
    render() {
        return (
-            <React.Fragment>
+            <Container fluid>
                 <section className="featured">
                     <Row>
                         <Col className="left" xs="12" sm="5" md="5" lg="5" xl="5">
@@ -139,7 +135,7 @@ class Home extends React.Component {
                         </Col>
                     </Row>
                 </section>
-            </React.Fragment>
+            </Container>
        );
    }
 }

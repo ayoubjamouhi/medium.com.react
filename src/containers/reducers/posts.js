@@ -1,19 +1,19 @@
 function journaux(state = [], action) {
    switch(action.type) {
-       case 'FETCH_JOURNAUX' :
-            console.log("SET_JOURNAUX_IMPRIMER");
+       case 'FETCH_POSTS' :
+            console.log("FETCH_POSTS");
             return [
                 ...state,
                 ...action.donnees,
             ]
-        case 'ADD_JOURNAL' :
-            console.log("ADD_JOURNAL");
+        case 'ADD_POST' :
+            console.log("ADD_POST");
             return [
                 ...state,
                 action.journal,
             ]
-        case 'SET_STATE_JOURNAUX_EMPTY' :
-           console.log("SET_STATE_JOURNAUX_EMPTY");
+        case 'SET_STATE_POSTS_EMPTY' :
+           console.log("SET_STATE_POSTS_EMPTY");
            return [];
      default:
        return state;

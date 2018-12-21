@@ -85,13 +85,7 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    journaux: state.journaux,
-    contreparties: state.contreparties,
-    fournisseurs: state.fournisseurs,
-    plancomptables: state.plancomptables,
-    succursales: state.succursales,
-    libelles: state.libelles,
-    isLogin: state.isLogin
+    posts: state.posts,
   }
 }
 
