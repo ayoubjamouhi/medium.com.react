@@ -67,6 +67,7 @@ section.featured-members {
         }
     }
     .right {
+        position: relative;
         h2.top {
             border-bottom: 2px solid #CCC;
             padding-bottom: 23px;
@@ -107,6 +108,15 @@ section.featured-members {
                         color: rgba(0,0,0,.5);
                     }
                 }
+            }
+        }
+        div.footer {
+            position: absolute;
+            bottom: 20px;
+            a {
+                color: $gris;
+                font-size: 20px;
+                padding-right: 15px
             }
         }
     }
